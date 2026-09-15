@@ -1,0 +1,34 @@
+generated: '2026-09-14'
+method: searched
+source: https://aim.vision/
+description: >-
+  AIM Intelligent Machines publishes no API and therefore no rate limits. There is no
+  developer portal, no API reference and no machine-readable contract on any host AIM
+  controls, so there is no documented quota, window, burst allowance or throttling
+  response to record, and nothing to observe on a live unauthenticated response because
+  no public endpoint exists to call. This is an honest zero, not an unmeasured gap.
+limit_count: 0
+limits: []
+headers: []
+exhaustion_status: null
+retry_after: null
+quota_docs: null
+notes:
+  - >-
+    The only availability commitment AIM publishes is contractual rather than numeric —
+    its Terms of Service say AIM "will use commercially reasonable efforts to maintain
+    availability and performance of the Cloud Backend" and acknowledge that temporary
+    interruption or degradation may occur for maintenance, upgrades, network or equipment
+    reasons. No SLA percentage, credit schedule or rate ceiling is stated.
+  - >-
+    The Terms of Service also reserve a throttling-adjacent right that is operational, not
+    API-level. AIM "may enable, disable, limit or suspend autonomous operation remotely to
+    maintain safety, compliance or system integrity", and may suspend an AIMWare unit or
+    the Cloud Backend as a whole. That governs machines, not requests.
+evidence:
+  - url: https://aim.vision/docs
+    status: 404
+  - url: https://aim.vision/developers
+    status: 404
+  - url: https://aim.vision/terms
+    status: 200

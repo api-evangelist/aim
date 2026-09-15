@@ -1,0 +1,46 @@
+# AIM (AIM Intelligent Machines)
+
+> AIM builds autonomous earthmoving for mining, construction and defense. A plug-and-play
+> retrofit kit converts existing heavy equipment — excavators, bulldozers, haul trucks — into
+> self-operating machines regardless of make, model, size or age while preserving the OEM
+> warranty, combining rugged onboard hardware and 360-degree camera perception with a
+> tablet-based control interface and a "Site Intelligence" analytics dashboard for remote
+> fleet tasking, terrain mapping and productivity reporting.
+
+IMPORTANT FOR AGENTS: AIM publishes **no public API, SDK, developer portal, or machine-readable
+contract**. As of 2026-09-14 there is no OpenAPI, AsyncAPI, GraphQL schema, MCP server, A2A agent
+card, or `/.well-known/` discovery document on any host it controls, and no GitHub organization.
+The docs, api, developer and app subdomains of aim.vision do not resolve. This file is generated
+by API Evangelist from the public profile; it is not published by AIM.
+
+## Company
+
+- [AIM home](https://aim.vision/): Product overview — autonomous earthmoving platform.
+- [About](https://aim.vision/about): Company background and mission.
+- [Our team](https://aim.vision/our-team): Founders and engineering team (Waymo, SpaceX, Google, Tesla, Apple, Microsoft, Trimble, Hexagon alumni).
+- [FAQ](https://aim.vision/faqs): Technology, safety, cybersecurity, deployment, business model.
+- [News](https://aim.vision/news): Dated press and articles, including the Komatsu strategic partnership (2026-07-31) and the Ouster LiDAR partnership (2026-06-18).
+- [Careers](https://aim.vision/careers): Open roles.
+
+## Product
+
+- [Rapid deploy](https://aim.vision/rapid-deploy): Three-step retrofit — hardware install, Site Intelligence activation, full autonomy.
+- [Safety first](https://aim.vision/safety-first): Safety record and standards.
+- [Real-world results](https://aim.vision/real-world-results): Deployment outcomes and productivity figures.
+
+## Legal
+
+- [Customer terms of service](https://aim.vision/terms)
+- [Website terms of use](https://aim.vision/site-terms)
+- [Privacy policy](https://aim.vision/privacy)
+
+## APIs
+
+None published. AIM has no developer program.
+
+## API Evangelist profile
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/aim/refs/heads/main/apis.yml): Machine-readable APIs.json profile.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/aim/refs/heads/main/well-known/aim-well-known.yml): Recorded absence — every named discovery path returns 404 on aim.vision and www.aim.vision.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/aim/refs/heads/main/security/aim-domain-security.yml): TLS 1.3, HSTS max-age 63072000, SPF present, DMARC p=quarantine, no DNSSEC, no CAA.
+- [Plans](https://raw.githubusercontent.com/api-evangelist/aim/refs/heads/main/plans/aim-plans-pricing.yml): No published pricing; dealer and OEM sales motion.

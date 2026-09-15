@@ -1,0 +1,100 @@
+generated: '2026-09-14'
+method: probed
+source: live probe of every host this record knows (aim.vision, www.aim.vision)
+note: >-
+  Every named path returned a hard HTTP 404 with the site's standard 15,906-byte HTML error page.
+  The docs/api/developer/app subdomains do not resolve at all, so aim.vision and www.aim.vision are
+  the complete host set. No document was fetched or saved, so NO WellKnown and NO SecurityTxt
+  pointer is emitted — this file records a verified absence, not a presence.
+hit_count: 0
+path_echo_control: passed
+soft_404_control:
+  path: /.well-known/aim-negative-control-7f3ab91c.json
+  status: 404
+  bytes: 15906
+  note: >-
+    A path that cannot exist returns 404, not 2xx — the host is not a path-echoing or SPA
+    catch-all, so the 404s above are honest negatives.
+hosts:
+- host: https://aim.vision
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/ucp.json
+    status: 404
+  - path: /.well-known/acp.json
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
+  - path: /.well-known/apis.json
+    status: 404
+  - path: /apis.json
+    status: 404
+  - path: /apis.yml
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://www.aim.vision
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/ucp.json
+    status: 404
+  - path: /.well-known/acp.json
+    status: 404
+  - path: /.well-known/aauth-resource.json
+    status: 404
+  - path: /.well-known/apis.json
+    status: 404
+  - path: /apis.json
+    status: 404
+  - path: /apis.yml
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+unresolved_hosts:
+- host: https://docs.aim.vision
+  status: 0
+  note: DNS does not resolve
+- host: https://api.aim.vision
+  status: 0
+  note: DNS does not resolve
+- host: https://developer.aim.vision
+  status: 0
+  note: DNS does not resolve
+- host: https://developers.aim.vision
+  status: 0
+  note: DNS does not resolve
+- host: https://app.aim.vision
+  status: 0
+  note: DNS does not resolve
+- host: https://status.aim.vision
+  status: 0
+  note: DNS does not resolve
+- host: https://trust.aim.vision
+  status: 0
+  note: DNS does not resolve

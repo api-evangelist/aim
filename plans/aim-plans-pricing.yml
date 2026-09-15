@@ -1,0 +1,20 @@
+generated: '2026-09-14'
+method: searched
+source: https://aim.vision/sitemap.xml
+plan_count: 0
+note: >-
+  AIM publishes no pricing page and no plans of any kind. Its own sitemap.xml enumerates the
+  complete public site — eight pages (home, safety-first, real-world-results, rapid-deploy,
+  our-team, faqs, news, careers) — and none of them is a pricing, plans or packaging page.
+  The company sells its autonomous-earthmoving retrofit kit through named equipment dealers
+  (SITECH South, Intermountain Technologies, The Herga Group for Australia/New Zealand) and a
+  strategic OEM partnership with Komatsu, so commercial terms are negotiated per deployment
+  rather than published. This is a verified zero, not an unchecked field.
+plans: []
+evidence:
+- url: https://aim.vision/sitemap.xml
+  status: 200
+  note: 8 URLs, no /pricing or /plans entry
+- url: https://aim.vision/
+  status: 200
+  note: no pricing link in navigation or footer

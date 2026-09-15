@@ -64,6 +64,21 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AIM is a company surfaced as a portfolio company of general-catalyst and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+AIM (AIM Intelligent Machines) is a Redmond, Washington robotics and AI company building
+autonomous earthmoving for mining, construction and defense. Its plug-and-play retrofit kit
+converts existing heavy equipment — excavators, bulldozers, haul trucks — into self-operating
+machines regardless of make, model, size or age while preserving the OEM warranty, pairing rugged
+onboard hardware and 360-degree camera perception with a tablet control interface and a "Site
+Intelligence" analytics dashboard. Founded 2021; backed by General Catalyst, Khosla Ventures,
+DCVC, Human Capital, Ironspring Ventures and Mantis; strategic partnership with Komatsu.
 
-Source: portfolio company of [general-catalyst](https://github.com/api-evangelist/general-catalyst)
+**No public developer surface.** As of the 2026-09-14 enrichment pass AIM publishes no API,
+SDK, developer portal, or machine-readable contract. Its own `sitemap.xml` lists the complete
+public site — eight marketing and legal pages. The `docs`, `api`, `developer` and `app`
+subdomains of `aim.vision` do not resolve, there is no GitHub organization, and every named
+contract and `/.well-known/` path probed on `aim.vision` and `www.aim.vision` returned a hard
+404 (negative control confirms the host is not a catch-all). See
+[`well-known/aim-well-known.yml`](well-known/aim-well-known.yml) for the recorded absence.
+
+- Website: https://aim.vision/
+- Source: portfolio company of [general-catalyst](https://github.com/api-evangelist/general-catalyst)

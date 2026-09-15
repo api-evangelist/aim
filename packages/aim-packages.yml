@@ -1,0 +1,38 @@
+generated: '2026-09-14'
+method: searched
+source: >-
+  registry.npmjs.org, pypi.org, api.github.com, and the aim.vision site — searched
+  2026-09-14
+description: >-
+  No first-party AIM Intelligent Machines client library, SDK or CLI exists in any public
+  package registry. AIM ships an onboard hardware/software unit (AIMWare) and a hosted
+  Cloud Backend sold under subscription; there is no public API for a client library to
+  wrap, no SDK or download link on aim.vision, and no GitHub organization to publish from.
+  An honest zero.
+package_count: 0
+official_package_count: 0
+packages: []
+registries_searched:
+  - registry: npm
+    query: https://registry.npmjs.org/-/v1/search?text=aim-intelligent-machines
+    result: >-
+      No package published by or naming AIM Intelligent Machines. The query returns
+      unrelated packages matching the individual words.
+  - registry: pypi
+    query: https://pypi.org/pypi/aim-vision/json
+    status: 404
+    result: No AIM Intelligent Machines distribution.
+  - registry: github
+    query: https://api.github.com/orgs/aim-intelligent-machines
+    status: 404
+    result: >-
+      No GitHub organization. aimintelligentmachines, aimvision and aim-vision also return
+      404, so there is no first-party source repository to derive candidates from.
+notes:
+  - The `aim` name is heavily squatted in public registries by unrelated projects (the Aim
+    ML experiment tracker on PyPI, several npm packages). None of them is first-party to
+    this company, and none was recorded.
+  - No SDK, CLI or SourceCode link exists in apis.yml to derive a candidate from, because
+    the provider publishes none.
+  - Because package_count is 0, no `SDKs` pointer is emitted in apis.yml — that pointer
+    would assert a first-party SDK the provider does not ship.
