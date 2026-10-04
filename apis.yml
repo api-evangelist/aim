@@ -67,7 +67,6 @@ tags:
 - Mining
 - Construction
 - Defense
-- Startups
 - General Catalyst Portfolio
 tags_raw:
 - Company
@@ -80,7 +79,6 @@ tags_raw:
 - Mining
 - Construction
 - Defense
-- Startup
 - General Catalyst Portfolio
 apis: []
 common:
@@ -147,3 +145,7 @@ x-coverage:
   - url: https://api.github.com/orgs/aim-intelligent-machines
     status: 404
   checked: '2026-09-14'
+x-tags-removed:
+- Startups
+x-company-stage: venture-backed
+x-company-stage-evidence: "own tags: Startup, General Catalyst Portfolio"
