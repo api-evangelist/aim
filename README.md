@@ -1,4 +1,4 @@
-# AIM
+# AIM Intelligent Machines
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,21 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AIM (AIM Intelligent Machines) is a Redmond, Washington robotics and AI company building
-autonomous earthmoving for mining, construction and defense. Its plug-and-play retrofit kit
-converts existing heavy equipment — excavators, bulldozers, haul trucks — into self-operating
-machines regardless of make, model, size or age while preserving the OEM warranty, pairing rugged
-onboard hardware and 360-degree camera perception with a tablet control interface and a "Site
-Intelligence" analytics dashboard. Founded 2021; backed by General Catalyst, Khosla Ventures,
-DCVC, Human Capital, Ironspring Ventures and Mantis; strategic partnership with Komatsu.
+AIM (AIM Intelligent Machines) is a Redmond, Washington robotics and artificial-intelligence company building autonomous earthmoving for mining, construction and defense. Its plug-and-play retrofit kit converts existing heavy equipment — excavators, bulldozers, haul trucks — into self-operating machines regardless of make, model, size or age, while preserving the OEM warranty, pairing rugged onboard hardware and 360-degree camera-based perception with a tablet-based control interface and a "Site Intelligence" analytics dashboard for remote fleet tasking, terrain mapping and productivity reporting. Founded in 2021 by engineers from Waymo, SpaceX, Google, Tesla, Apple, Microsoft, Trimble and Hexagon, AIM is backed by General Catalyst (partners Quentin Clark and Max Rimpel), Khosla Ventures, DCVC, Human Capital, Ironspring Ventures and Mantis, and has announced a strategic partnership with Komatsu and a LiDAR partnership with Ouster. AIM sells through equipment dealers rather than a self-serve product, and as of this pass publishes no public developer program, API reference, SDK or machine-readable contract of any kind — its entire public web surface is eight marketing and legal pages.
 
-**No public developer surface.** As of the 2026-09-14 enrichment pass AIM publishes no API,
-SDK, developer portal, or machine-readable contract. Its own `sitemap.xml` lists the complete
-public site — eight marketing and legal pages. The `docs`, `api`, `developer` and `app`
-subdomains of `aim.vision` do not resolve, there is no GitHub organization, and every named
-contract and `/.well-known/` path probed on `aim.vision` and `www.aim.vision` returned a hard
-404 (negative control confirms the host is not a catch-all). See
-[`well-known/aim-well-known.yml`](well-known/aim-well-known.yml) for the recorded absence.
+**Areas:** Company · Artificial Intelligence · Robotics · Autonomy · Heavy Equipment · Earthmoving · Mining · Construction · Defense · General Catalyst Portfolio
 
-- Website: https://aim.vision/
-- Source: portfolio company of [general-catalyst](https://github.com/api-evangelist/general-catalyst)
+## AIM Intelligent Machines on APIs.io
+
+Everything profiled for AIM Intelligent Machines is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aim/](https://apis.io/providers/aim/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aim Domain Security](https://apis.io/security/aim/aim-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aim Plans Pricing](https://apis.io/plans/aim/aim-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Aim Rate Limits](https://apis.io/rate-limits/aim/aim-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aim.vision/)
+- [Blog](https://aim.vision/news)
+- [Terms of service](https://aim.vision/terms)
+- [Privacy policy](https://aim.vision/privacy)
+
+## API Evangelist rating
+
+**Kin Score 10.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aim/](https://apis.io/providers/aim/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AIM Intelligent Machines: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aim/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
